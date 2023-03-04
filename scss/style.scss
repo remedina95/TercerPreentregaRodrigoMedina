@@ -1,0 +1,38 @@
+.menu {
+    background-color: red;
+}
+.vehiculo {
+    text-align: center;
+}
+.servicios {
+    background-color: red;
+}
+.pie_de_pagina {
+    background-color: red;
+}
+.nosotros {
+    background-image: url(../img/mt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.descripcion {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+    h1 {
+        font-size: 4rem;
+        font-weight: 900;
+    }
+}
+.sombra {
+    box-shadow: 10px -8px 5px  white;
+}    
+.contenido {
+    color: white;
+    text-align: center;
+    .msj {
+        padding-right: 2rem;
+    }
+}
