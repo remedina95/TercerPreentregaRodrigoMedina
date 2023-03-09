@@ -7,9 +7,6 @@
 .servicios {
     background-color: black;
 }
-.pie_de_pagina {
-    background-color: red;
-}
 .nosotros {
     background-image: url(../img/mt.jpg);
     background-size: cover;
@@ -40,4 +37,8 @@ body {
         padding: 5px 295px;
         border-radius: 30px;
     }
+}
+.copyright {
+    background-color: black;
+    color: white
 }
