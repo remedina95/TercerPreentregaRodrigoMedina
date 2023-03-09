@@ -1,17 +1,54 @@
-/* Error: Undefined variable.
- *    ,
- * 41 | $carousel-control-color:             $white;
- *    |                                      ^^^^^^
- *    '
- *   scss\style.scss 41:38  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 41 \2502  $carousel-control-color:             $white;\d\a    \2502                                       ^^^^^^\a    \2575 \a   scss\\style.scss 41:38  root stylesheet";
+.menu {
+  background-color: red;
 }
+
+.vehiculo {
+  text-align: center;
+}
+
+.servicios {
+  background-color: black;
+}
+
+.pie_de_pagina {
+  background-color: red;
+}
+
+.nosotros {
+  background-image: url(../img/mt.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.descripcion {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+body h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.sombra {
+  box-shadow: 10px -8px 5px white;
+}
+
+.sombra1 {
+  box-shadow: -10px 8px 5px -1px white;
+}
+
+.contenido {
+  color: white;
+  text-align: center;
+}
+.contenido .cajas {
+  margin: 15px;
+  padding: 5px 295px;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
